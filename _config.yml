@@ -1,0 +1,23 @@
+title:              "집요한 리뷰존"
+tagline:            "개취저격, 개인의 취향을 조금더 집요하게 파고드는 큐레이션 리뷰"
+email:              "your-email@example.com"
+description:        "리뷰가 적거나 없는, 상품들을 리뷰하고 비교분석해서 바람직한 소비를 돕는 블로그"
+author:             "John"
+baseurl:            "/"
+url:                "https://reviewjohn.info"
+locale:             "ko_KR"
+thumbnail:          "/img/thumbnail.jpg"
+
+# Social Profiles
+twitter_username:   twitter_username
+instagram_username: instagram_username
+facebook_username:  facebook_username
+linkedin_username:  linkedin_username
+
+# Build settings
+markdown:           kramdown
+permalink:          /:title
+paginate:           5
+paginate_path:      "/posts/page:num/"
+plugins:
+  - jekyll-paginate
